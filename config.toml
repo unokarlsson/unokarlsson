@@ -1,0 +1,48 @@
+# Categories           = Health, Economy, Programming, Computer Science
+# Fags for Health      = Fysical, Mental, ...
+# Tags for Economy     = Saving, Investing, Stock, Dividend
+# Tags for Programming = ml, ai, datascience ... c c++ java javascript, python r rust etc
+
+
+
+baseurl         = "http://www.unokarlsson.com"
+title           = "Uno Karlsson's Blog"
+description     = "All about health, economy, computer science and learning"
+copyright       = "Copyright &copy; 2018 - Uno Karlsson"
+canonifyurls    = true
+theme           = "kiera"
+
+disqusShortname = "" # Disqus shortname
+googleAnalytics = "" # Google Analytics ID
+
+paginate        = 7
+summaryLength   = 30
+enableEmoji     = true
+
+pygmentsCodeFences = false
+pygmentsUseClasses = false  # Enable generated css class for code
+
+[author]
+    name = "Uno Karlsson"
+    github = "unokarlsson"
+    gitlab = ""
+    linkedin = "unokarlsson"
+    facebook = ""
+    twitter = "unokarlsson"
+    instagram = "unokarlsson_"
+
+[params]
+    tagline = "All about Computer Science, Economy, Health and Learning ..."
+
+[[menu.main]]
+    name = "Home"  # Name in the navigation bar
+    weight = 10    # The larger the weight, the more on the right this item will be
+    url = "/"      # URL address
+[[menu.main]]
+    name = "Posts"
+    weight = 10
+    url = "/posts/"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
