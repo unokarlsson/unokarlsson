@@ -1,5 +1,2 @@
-# Hugo www.unokarlsson.com website
+# Hugo www.unokarlsson.com statically generated website.
 
-The empty directories are not added to git
-    /data
-    /resources
